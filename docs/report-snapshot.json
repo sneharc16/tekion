@@ -1,0 +1,50 @@
+{
+  "snapshot": {
+    "title": "Battery Health Report",
+    "subtitle": "Dealer-issued evidence summary",
+    "vehicle": "2024 Ford Mustang Mach-E",
+    "vin": "•••••••••••000002",
+    "miles": 31000,
+    "interval": [
+      89,
+      93
+    ],
+    "last": {
+      "date": "2026-11-16",
+      "value": 91
+    },
+    "quality": "limited",
+    "reason": "Based on 1 independent reading dates over 0 days",
+    "warnings": [],
+    "readings": [
+      {
+        "date": "2026-11-16",
+        "value": 91,
+        "source": "OEM diagnostic tool",
+        "miles": 31000
+      }
+    ],
+    "pack": "original",
+    "pack_context": {
+      "start_date": "2023-04-18",
+      "verification": "demo fixture"
+    },
+    "warranty": "Needs warranty verification. No verified rule for this exact model year.",
+    "coverage": {
+      "status": "Needs warranty verification",
+      "time_remaining": null,
+      "miles_remaining": null,
+      "reason": "No verified rule for this exact model year.",
+      "rule": null
+    },
+    "dealer": "Northline Motors · Demo data",
+    "as_of": "2026-11-16",
+    "expires_on": "2027-02-14",
+    "generated_at": "2026-11-17T05:33:46.298666+00:00",
+    "limitations": "Illustrative estimate from available capacity readings. Not independent certification or a guarantee of future performance. Current pack only.",
+    "version": 1,
+    "status": "published",
+    "integrity": "eb2af241ad94121427903d6642770f74b2330793d3e71d20ae4cecc29994ca92"
+  },
+  "url": "http://127.0.0.1:5175/r/Wi5HBBUJQS6z7Ym6iD8C_dTzpTg78K6U2nMF0Tf7QvI"
+}

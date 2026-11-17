@@ -1,0 +1,37 @@
+{
+  "environment": "Fresh dependency install in a disposable copy on the same macOS machine; not a second-machine test",
+  "python": "3.13.0",
+  "steps": [
+    {
+      "step": "Create clean Python environment",
+      "exit_code": 0,
+      "seconds": 3.35
+    },
+    {
+      "step": "Install locked Python and dev dependencies",
+      "exit_code": 0,
+      "seconds": 9.54
+    },
+    {
+      "step": "Install locked Node dependencies",
+      "exit_code": 0,
+      "seconds": 3.42
+    },
+    {
+      "step": "Python lint",
+      "exit_code": 0,
+      "seconds": 0.85
+    },
+    {
+      "step": "Isolated backend workflow tests",
+      "exit_code": 0,
+      "seconds": 14.7
+    },
+    {
+      "step": "TypeScript and frontend production build",
+      "exit_code": 0,
+      "seconds": 13.23
+    }
+  ],
+  "passed": true
+}
